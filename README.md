@@ -33,4 +33,4 @@ mvn clean tomcat:run
 
 ## Run RobotFramework Test Case
 
-pybot -d target -x target/xunit.xml -v SERVER:<IP:PORT> src/test/test
+pybot -d target -x target/xunit.xml -v SERVER:<IP:PORT> src/test/test/
