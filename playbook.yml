@@ -1,0 +1,5 @@
+---
+- hosts: 139.159.228.59
+  tasks:
+  - name: testAnsible
+    command: echo "test king"
