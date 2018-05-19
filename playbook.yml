@@ -2,4 +2,6 @@
 - hosts: 118.31.50.72
   tasks:
   - name: testAnsible
-    command: mkdir kingjoy
+    copy:
+      src=docker/jpetstore.war
+      dest=/root/king/webapps
