@@ -1,5 +1,5 @@
 ---
-- hosts: 139.159.228.59
+- hosts: 118.31.50.72
   tasks:
   - name: testAnsible
-    command: echo "test king"
+    command: copy docker/jpetstore.war king/webapps/
