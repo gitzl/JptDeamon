@@ -2,4 +2,4 @@
 - hosts: 118.31.50.72
   tasks:
   - name: testAnsible
-    command: cp docker/jpetstore.war /root/king/webapps/
+    command: cp ./docker/jpetstore.war /root/king/webapps/
