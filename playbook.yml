@@ -1,5 +1,5 @@
 ---
-- hosts: 118.31.50.72
+- hosts: 118.31.50.65
   tasks:
   - name: testAnsible
     copy:
