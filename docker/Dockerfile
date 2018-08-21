@@ -16,6 +16,6 @@
 
 FROM tomcat:7.0
 
-ADD docker/jpetstore.war /usr/local/tomcat/webapps/
+ADD jpetstore.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
