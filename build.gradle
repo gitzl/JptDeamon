@@ -14,9 +14,8 @@ targetCompatibility = 1.5
 configurations.all {
 }
 
-repositories {
-     mavenLocal()   
-     maven { url "http://nexus.wise2c.com/repository/maven-public/" }
+repositories {  
+     maven { url "https://repo.huaweicloud.com/repository/maven/" }
 }
 dependencies {
     compile group: 'ognl', name: 'ognl', version:'3.1.7'
